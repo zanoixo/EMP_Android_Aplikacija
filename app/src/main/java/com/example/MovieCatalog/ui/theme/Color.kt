@@ -1,4 +1,4 @@
-package com.example.katalogzafilme.ui.theme
+package com.example.MovieCatalog.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

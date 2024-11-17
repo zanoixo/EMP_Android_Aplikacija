@@ -1,4 +1,4 @@
-package com.example.katalogzafilme
+package com.example.MovieCatalog
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
