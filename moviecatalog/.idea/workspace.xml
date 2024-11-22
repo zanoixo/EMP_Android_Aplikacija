@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd7197d3-d8f3-4e2c-9bf4-de5a1f792f0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/androidTest/java/com/example/moviecatalog/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/MovieCatalogApp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/data/Movie.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/data/MovieCatalogData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/FavoriteScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/HomeScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/MovieCatalogUIState.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/MovieCatalogViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/TopBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/WatchLaterScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/java/com/example/moviecatalog/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/app/src/test/java/com/example/moviecatalog/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieCatalog/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2pDcXfAp6JW249R9OAhcUhaXlZg" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/zan/Documents/GitHub/EMP_Android_Aplikacija/moviecatalog"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd7197d3-d8f3-4e2c-9bf4-de5a1f792f0b" name="Changes" comment="" />
+      <created>1732304128049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732304128049</updated>
+    </task>
+    <servers />
+  </component>
+</project>
