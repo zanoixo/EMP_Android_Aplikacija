@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.katalogzafilme"
+        applicationId = "com.example.MovieCatalog"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
