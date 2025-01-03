@@ -5,7 +5,10 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.runtime.Composable
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.moviecatalog.ui.theme.MovieCatalogTheme
+import com.example.moviecatalog.ui.MovieCatologViewModel
 
 private const val TAG = "MyActivity"
 
@@ -15,6 +18,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "On create called")
+
         enableEdgeToEdge()
         setContent {
             MovieCatalogTheme {

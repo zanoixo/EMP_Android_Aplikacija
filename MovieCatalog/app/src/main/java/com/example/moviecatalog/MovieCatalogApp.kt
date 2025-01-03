@@ -23,7 +23,7 @@ enum class MovieCatalogScreen() {
 @Composable
 fun MovieCatalogApp(viewModel: MovieCatologViewModel = viewModel(),
                    navController: NavHostController = rememberNavController()) {
-
+    viewModel.setTop10()
     NavHost(navController = navController,
         startDestination = MovieCatalogScreen.Home.name
     ) {
