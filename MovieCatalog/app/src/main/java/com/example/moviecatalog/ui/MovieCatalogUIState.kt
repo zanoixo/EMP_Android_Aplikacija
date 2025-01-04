@@ -10,6 +10,7 @@ data class MovieCatalogUIState(
     var currentMovie: Movie = Movie("",0,0.0, ""),
     var favoriteIndex: Int = 0,
     var watchLaterIndex: Int = 0,
-    val topList: ArrayList<Top10> = ArrayList<Top10>()
+    val topList: ArrayList<Top10> = ArrayList<Top10>(),
+    val success: Int = 0
 
 )

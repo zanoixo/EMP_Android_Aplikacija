@@ -18,7 +18,7 @@ import androidx.navigation.NavController
 import com.example.moviecatalog.MovieCatalogScreen
 
 @Composable
-fun WatchLaterScreen(viewModel: MovieCatologViewModel = viewModel(),
+fun WatchLaterScreen(viewModel: MovieCatalogViewModel = viewModel(),
                      navController: NavController) {
     val uiState = viewModel.uiState.collectAsState().value;
     Column{

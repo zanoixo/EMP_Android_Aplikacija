@@ -18,7 +18,7 @@ import com.example.moviecatalog.data.Movie
 import com.example.moviecatalog.data.availableMovies
 
 @Composable
-fun ShowListOfMovies(viewModel: MovieCatologViewModel = viewModel(),
+fun ShowListOfMovies(viewModel: MovieCatalogViewModel = viewModel(),
                      navController: NavController,
                      screen: String) {
     val uiState = viewModel.uiState.collectAsState().value

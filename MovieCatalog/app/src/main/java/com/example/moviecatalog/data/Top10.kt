@@ -5,5 +5,5 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Top10 (
     val rank: Int,
-    val title: String
+    val title: String,
 )

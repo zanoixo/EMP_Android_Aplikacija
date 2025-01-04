@@ -19,7 +19,7 @@ import com.example.moviecatalog.MovieCatalogScreen
 
 
 @Composable
-fun TopBar(viewModel: MovieCatologViewModel = viewModel(),
+fun TopBar(viewModel: MovieCatalogViewModel = viewModel(),
            navController: NavController) {
 
     Row (

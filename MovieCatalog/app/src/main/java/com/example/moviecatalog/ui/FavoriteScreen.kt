@@ -19,7 +19,7 @@ import com.example.moviecatalog.MovieCatalogScreen
 
 
 @Composable
-fun FavoriteScreen(viewModel: MovieCatologViewModel = viewModel(),
+fun FavoriteScreen(viewModel: MovieCatalogViewModel = viewModel(),
                    navController: NavController) {
     val uiState = viewModel.uiState.collectAsState().value;
     Column{

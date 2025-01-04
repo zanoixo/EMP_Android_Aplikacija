@@ -24,8 +24,13 @@ private const val KEY = "993a0f3628msh280c2749561d8e7p18a735jsn92e8b920c013"
 private const val HOST = "imdb-top-100-movies.p.rapidapi.com"
 
 //By using kotlinx.serialization converter, the Retrofit builder builds a retrofit object.
+
+private val jsonConfig = Json {
+    ignoreUnknownKeys = true // Ignore unknown fields in JSON responses
+}
+
 private val retrofit = Retrofit.Builder()
-    .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
+    .addConverterFactory(jsonConfig.asConverterFactory("application/json".toMediaType()))
     .baseUrl(BASE_URL)
     .build()
 
@@ -33,7 +38,7 @@ private val retrofit = Retrofit.Builder()
 interface ApiService {
     @Headers("x-rapidapi-key: $KEY",
         "x-rapidapi-host: $HOST")
-    @GET("api")
+    @GET("/")
     suspend fun get10(): List<Top10>
 }
 

@@ -19,7 +19,7 @@ import com.example.moviecatalog.MovieCatalogScreen
 import com.example.moviecatalog.data.Movie
 
 @Composable
-fun inWatchList(viewModel:  MovieCatologViewModel): Int {
+fun inWatchList(viewModel:  MovieCatalogViewModel): Int {
     val uiState = viewModel.uiState.collectAsState().value
     for (movie: Movie in uiState.watchLater) {
         if (movie == uiState.currentMovie) {
@@ -31,7 +31,7 @@ fun inWatchList(viewModel:  MovieCatologViewModel): Int {
 }
 
 @Composable
-fun inFavoriteList(viewModel: MovieCatologViewModel): Int{
+fun inFavoriteList(viewModel: MovieCatalogViewModel): Int{
     val uiState = viewModel.uiState.collectAsState().value
     for (movie: Movie in uiState.favorite) {
         if (movie == uiState.currentMovie) {
@@ -42,7 +42,7 @@ fun inFavoriteList(viewModel: MovieCatologViewModel): Int{
 }
 
 @Composable
-fun OpenMovieScreen(viewModel: MovieCatologViewModel = viewModel(),
+fun OpenMovieScreen(viewModel: MovieCatalogViewModel = viewModel(),
                     navController: NavController) {
 
     val uiState = viewModel.uiState.collectAsState().value
@@ -62,6 +62,7 @@ fun OpenMovieScreen(viewModel: MovieCatologViewModel = viewModel(),
         if (isInFavoriteList == 0) {
             Button(onClick = {viewModel.addMovieToFavoriteList(uiState.currentMovie)
                               navController.navigate(MovieCatalogScreen.OpenMovie.name)
+
                              }, modifier = Modifier.align(Alignment.CenterHorizontally)) {
                 Text("Add to favorites")
             }

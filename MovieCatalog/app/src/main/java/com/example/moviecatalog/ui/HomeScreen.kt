@@ -21,13 +21,12 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.moviecatalog.MovieCatalogScreen
 import com.example.moviecatalog.data.availableMovies
-import com.example.moviecatalog.ui.MovieCatologViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 @Composable
-fun HomeScreen(viewModel: MovieCatologViewModel = viewModel(),
+fun HomeScreen(viewModel: MovieCatalogViewModel = viewModel(),
                navController: NavController) {
 
     val uiState = viewModel.uiState.collectAsState().value;
@@ -67,7 +66,11 @@ fun HomeScreen(viewModel: MovieCatologViewModel = viewModel(),
                 }, modifier = Modifier.padding(start = 20.dp)) {
                 Text("Previus page")
             }
-            Spacer(modifier = Modifier.width(100.dp))
+            Button(onClick = {
+                navController.navigate(MovieCatalogScreen.OpenTop10.name)}) {
+                Text("Top10")
+            }
+            //Spacer(modifier = Modifier.width(100.dp))
             Button(onClick = {
                 viewModel.changeHomeIndex(1)
                 navController.navigate(MovieCatalogScreen.Home.name)}) {
