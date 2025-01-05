@@ -1,5 +1,6 @@
 package com.example.moviecatalog.ui
 
+import android.util.Log
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -28,6 +29,7 @@ fun Top10Screen(viewModel: MovieCatalogViewModel = viewModel(),
         Spacer(modifier = Modifier.height(50.dp))
         Text("Top 10 screen", modifier = Modifier.align(Alignment.CenterHorizontally))
         Spacer(modifier = Modifier.height(10.dp))
+        Log.i("API", "" + uiState.success)
         if (uiState.success == 1) {
             for (i in 0..9) {
                 Text("" + (i + 1) + ": " + uiState.topList[i].title, modifier = Modifier.align(Alignment.CenterHorizontally))

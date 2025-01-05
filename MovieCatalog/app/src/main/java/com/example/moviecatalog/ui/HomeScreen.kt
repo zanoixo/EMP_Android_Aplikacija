@@ -25,12 +25,30 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
+fun sortByName() {
+    availableMovies = availableMovies.sortedBy { it.name }
+}
+
+fun sortByNameDescending() {
+    availableMovies = availableMovies.sortedByDescending { it.name }
+}
+
+fun sortByRating() {
+    availableMovies = availableMovies.sortedBy { it.rating }
+}
+
+fun sortByRatingDescending() {
+    availableMovies = availableMovies.sortedByDescending { it.rating }
+}
+
 @Composable
 fun HomeScreen(viewModel: MovieCatalogViewModel = viewModel(),
                navController: NavController) {
 
     val uiState = viewModel.uiState.collectAsState().value;
-
+    if (uiState.success == 0) {
+        viewModel.setTop10()
+    }
     Column{
         TopBar(viewModel = viewModel, navController = navController)
         Text("Home screen", modifier = Modifier.align(Alignment.CenterHorizontally))
@@ -57,6 +75,36 @@ fun HomeScreen(viewModel: MovieCatalogViewModel = viewModel(),
 
         }
         Spacer(modifier = Modifier.weight(1f))
+        Row {
+            Button(onClick = {
+                    sortByName()
+                    navController.navigate(MovieCatalogScreen.Home.name)
+
+            }, modifier = Modifier.padding(start = 4.dp)) {
+                Text("Name+")
+            }
+            Button(onClick = {
+                sortByNameDescending()
+                navController.navigate(MovieCatalogScreen.Home.name)
+
+            }, modifier = Modifier.padding(start = 4.dp)) {
+                Text("Name-")
+            }
+            Button(onClick = {
+                sortByRating()
+                navController.navigate(MovieCatalogScreen.Home.name)
+
+            }, modifier = Modifier.padding(start = 4.dp)) {
+                Text("Rating+")
+            }
+            Button(onClick = {
+                sortByRatingDescending()
+                navController.navigate(MovieCatalogScreen.Home.name)
+
+            }, modifier = Modifier.padding(start = 4.dp)) {
+                Text("Rating-")
+            }
+        }
         Row{
             Button(onClick = {
                 if (uiState.homeIndex != 0) {

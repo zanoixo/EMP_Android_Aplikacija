@@ -1,11 +1,14 @@
 package com.example.moviecatalog
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.moviecatalog.ui.theme.MovieCatalogTheme
@@ -30,6 +33,7 @@ class MainActivity : ComponentActivity() {
         // Initialize the ViewModel using the factory
         val viewModelFactory = MovieCatalogViewModelFactory(repository)
         viewModel = ViewModelProvider(this, viewModelFactory).get(MovieCatalogViewModel::class.java)
+
         setContent {
             MovieCatalogTheme {
                 MovieCatalogApp(viewModel = viewModel)
@@ -41,6 +45,7 @@ class MainActivity : ComponentActivity() {
     override fun onStart() {
         super.onStart()
         Log.d(TAG, "onStart called")
+        Toast.makeText(this, "My activity is Starting", Toast.LENGTH_SHORT).show()
     }
 
     override fun onDestroy() {
@@ -50,11 +55,14 @@ class MainActivity : ComponentActivity() {
 
     override fun onStop() {
         super.onStop()
+
         Log.d(TAG, "onStop")
     }
 
+
     override fun onRestart() {
         super.onRestart()
+        Toast.makeText(this, "My activity is restarting", Toast.LENGTH_SHORT).show()
         Log.d(TAG, "onRestart")
     }
 

@@ -4,7 +4,7 @@ package com.example.moviecatalog.data
 
 val placeHolder : String = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisl neque, pellentesque in urna eu, cursus mollis orci. Aenean consectetur sem et ultrices vehicula. Maecenas malesuada a quam sed facilisis. Ut molestie arcu sapien, molestie viverra mi tempus sit amet. In rutrum laoreet nulla, ac posuere felis suscipit sit amet. Nunc sed turpis sapien. Mauris vitae massa id tortor ultrices pellentesque ac sed mi."
 
-val availableMovies: List<Movie> = listOf(
+var availableMovies: List<Movie> = listOf(
     Movie("movie 1",2010,8.5, placeHolder),
     Movie("movie 2",2009,3.4, placeHolder),
     Movie("movie 3",1990,7.3, placeHolder),

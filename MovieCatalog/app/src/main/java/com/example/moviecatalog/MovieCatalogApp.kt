@@ -12,6 +12,7 @@ import androidx.navigation.NavHostController
 import com.example.moviecatalog.data.Movie
 import com.example.moviecatalog.ui.MovieCatalogViewModel
 import com.example.moviecatalog.ui.OpenMovieScreen
+import com.example.moviecatalog.ui.RecommendationScreen
 import com.example.moviecatalog.ui.Top10Screen
 
 enum class MovieCatalogScreen() {
@@ -20,12 +21,12 @@ enum class MovieCatalogScreen() {
     WatchLater,
     OpenMovie,
     OpenTop10,
+    Recommendation
 }
 
 @Composable
 fun MovieCatalogApp(viewModel: MovieCatalogViewModel = viewModel(),
                     navController: NavHostController = rememberNavController()) {
-    //viewModel.setTop10()
     NavHost(navController = navController,
         startDestination = MovieCatalogScreen.Home.name
     ) {
@@ -43,6 +44,9 @@ fun MovieCatalogApp(viewModel: MovieCatalogViewModel = viewModel(),
         }
         composable(route = MovieCatalogScreen.OpenTop10.name) {
             Top10Screen(viewModel = viewModel, navController = navController)
+        }
+        composable(route = MovieCatalogScreen.Recommendation.name) {
+            RecommendationScreen(viewModel = viewModel, navController = navController)
         }
     }
 }

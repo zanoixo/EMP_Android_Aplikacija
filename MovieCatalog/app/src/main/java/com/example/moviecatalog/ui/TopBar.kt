@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.moviecatalog.MovieCatalogScreen
+import kotlin.system.exitProcess
 
 
 @Composable
@@ -42,6 +43,7 @@ fun TopBar(viewModel: MovieCatalogViewModel = viewModel(),
         Button(onClick =  { navController.navigate(MovieCatalogScreen.Favorite.name)}){
             Text(text = "Favorite")
         }
+
     }
 
 }

@@ -119,5 +119,4 @@ class MovieCatalogViewModel(private val repository: MovieCatalogRepository) : Vi
     }
 
 
-
 }

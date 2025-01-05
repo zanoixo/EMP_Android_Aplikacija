@@ -27,6 +27,13 @@ fun FavoriteScreen(viewModel: MovieCatalogViewModel = viewModel(),
         Text("Favorite screen", modifier = Modifier.align(Alignment.CenterHorizontally))
         ShowListOfMovies(viewModel = viewModel, navController = navController, "Favorite")
         Spacer(modifier = Modifier.weight(1f))
+        Row {
+            Button(onClick = {
+                    navController.navigate(MovieCatalogScreen.Recommendation.name)
+            }, modifier = Modifier.padding(start = 70.dp)) {
+                Text("Show recommended by year")
+            }
+        }
         Row{
             Button(onClick = {
                 if (uiState.favoriteIndex != 0) {
